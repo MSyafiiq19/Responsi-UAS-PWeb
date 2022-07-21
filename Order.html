@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Order Form Pixeld</title>
+	<link rel="stylesheet" type="text/css" href="Order.css">
+	<form name="form1" method="post" action="proses.php">
+</head>
+<body background="Pixel Blue.gif">
+<div class="login-box">
+		<h1>Order Disini</h1>
+		<form>
+			<p>Nama Lengkap</p>
+			<input type="text" name="Username" id="Username" placeholder="Masukkan Nama Lengkap">
+			<p>Alamat</p>
+			<input type="text" name="Alamat" id="Alamat"placeholder="Masukkan Alamat">
+			<p>No HP</p>
+			<input type="text" name="NoHandphone" id="NoHandphone"placeholder="Masukkan No Hp">
+			<p>Jenis Mobil</p>
+				<td>
+					<select name="Jenis" id="Jenis">
+					<option>Avanza</option>
+					<option>Innova</option>
+					<option>Xenia</option>
+					<option>Fortuner</option>
+					<option>Alpard</option>
+					<option>Hiace</option>
+				</select>
+				</td>
+				<br><br>
+			<p>Berapa Lama</p>
+			<label>Tanggal Awal</label>
+			<input name="tanggal_awal" type="date" id="tanggal_awal">
+			<label>Tanggal Akhir</label>
+			<input name="tanggal_akhir" type="date" id="tanggal_akhir">
+			<input type="submit" name="submit" value="Order">
+		</form>
+	</form>
+</body>
+</html>

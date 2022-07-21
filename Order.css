@@ -1,0 +1,79 @@
+html,body{height: 100%;}
+
+@font-face {
+    font-family: font_konten2;
+    src: url(VisbyCF-Medium.otf);
+}
+
+body{
+  background-size: cover;
+  background-position: center;
+  font-family: font_konten2;
+}
+
+.login-box{
+  width: 520px;
+  height: 670px;
+  background-color: #a7bbdb;
+  opacity: 0.9;
+  color: #fff;
+  top:  50%;
+  left: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.login-box p{
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  background: #1c8adb;
+}
+
+.login-box input[type="submit"]:hover{
+  cursor: pointer;
+  background: #E33D56;
+  color: #fff;
+}
+
+.login-box a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.login-box a:hover{
+  color: #E33D56;
+}
